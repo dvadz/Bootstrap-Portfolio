@@ -11,58 +11,58 @@
     <title>Bootstrap Portfolio</title>
 </head>
 <body>
-    <div class="container">
-    <!-- <div class="container px-0"> -->
-        <!-- NAVABAR -->
-        <nav class="navbar navbar-default">
-            <a class="navbar-brand text-danger" href="#"><i class="fab fa-canadian-maple-leaf text-danger"></i> DANIEL</a>
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- NAVABAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a class="navbar-brand" href="index.html">DANIEL</a>
             
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html"><i class="fas fa-info"></i> About <span class="sr-only">(current)</span></a>
-                    </li>
-                
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html"><i class="fas fa-laptop"></i> Portfolio</a>
+                        <a class="nav-link" href="index.html"> About<span class="sr-only">(current)</span></a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-laptop"></i> Contact</a>
+                        <a class="nav-link" href="portfolio.html"> Porfolio</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
-        </nav>
-        <!-- END OF NAVBAR -->
-
-    <!-- </div> -->
-
-    <div class="container border mt-5">
-
-        <div class="container">
-            <div class="jumbotron">
-                <h1><i class="fab fa-canadian-maple-leaf"></i>  Porfolio Gallery</h1>
-            </div>
-            <p>My progress as a web developer at a glance</p>
         </div>
-        
+    </nav>
+
+    <!-- JUMBOTRON  -->
+
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1><i class="fab fa-canadian-maple-leaf"></i>  About Me</h1>
+            <p class="pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
         
         <div class="row mt-3">
             <div class="col-12">
                 <h3>About Me</h3>
-                <hr>
             </div>
         </div>
         
         <div class="row">
-            <div class="col-sm-4 border">
-                <img id="mypic" class="profile_pic"  alt="ME"/>
+            <div class="col-4">
+                <img src="./assets/images/humvee.jpg" id="mypic" class="profile_pic"  alt="ME"/>
             </div>
+
             <div class="col-8">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel corrupti ea officiis. Quas adipisci nostrum, beatae dolore laboriosam voluptatum aliquam modi, hic dicta consequuntur iste odit? Corporis dignissimos modi rem exercitationem, numquam dolorem voluptas iure vero iusto voluptatibus, ullam cupiditate doloribus. Animi eum repudiandae deserunt quas dolorem nulla praesentium!
@@ -77,7 +77,6 @@
         </div>
     </div>
             
-    </div>        
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

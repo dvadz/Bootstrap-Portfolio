@@ -1,13 +1,13 @@
-body {
-    box-sizing: border-box;
-}
 
 #mypic {
-    background: url(../images/humvee.jpg);
+    /* content: url(../images/humvee.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
 
+.container {
+    max-width: 1000px;
+}
 
